@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Calculator karthik</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <haed>
+    <h1> CALCULATOR </h1>  
+    <div>
+   
+    <a href="https://www.linkedin.com/in/karthik-mokara-5303aa259/"> <p>--Contact karthik</p></a>
+  </div>
+
+  </head>
+   <div class="calculator">
+      <input type="text" id ="display" readonly >
+      <div class="button_cont">
+        <button>C</button>
+        <!-- 0 button implementation- -->
+        <button onclick="display_value+='0';
+        document.querySelector('#display').value=display_value">0</button>
+        <!-- 1 button implementation- -->
+        <button onclick="display_value+='1';
+        document.querySelector('#display').value=display_value">1</button>
+      </div>
+
+      <div class="button_cont">
+        <!-- 2 button implementation- -->
+        <button onclick="display_value+='2';
+            document.querySelector('#display').value=display_value">2</button>
+        <!-- 3 button implementation- -->
+        <button onclick="display_value+='3';
+        document.querySelector('#display').value=display_value">3</button>
+        <!-- 4 button implementation- -->
+        <button onclick="display_value+='4';
+        document.querySelector('#display').value=display_value">4</button>
+      </div>
+      <div class="button_cont">
+        <!-- 5 button implementation- -->
+        <button onclick="display_value+='5';
+        document.querySelector('#display').value=display_value">5</button>
+        <!-- 6 button implementation- -->
+        <button onclick="display_value+='6';
+        document.querySelector('#display').value=display_value">6</button>
+        <!-- 7 button implementation- -->
+        <button onclick="display_value+='7';
+        document.querySelector('#display').value=display_value">7</button>
+      </div>
+      <div class="button_cont">
+        <!-- 8 button implementation- -->
+        <button onclick="display_value+='8';
+        document.querySelector('#display').value=display_value">8</button>
+
+        <!-- 9 button implementation- -->
+        <button onclick="display_value+='9';
+        document.querySelector('#display').value=display_value">9</button>
+
+        <!-- "+"" button implementation- -->
+        <button onclick="display_value+='+';
+        document.querySelector('#display').value=display_value">+</button>
+      </div>
+      <div class="button_cont">
+        <!-- "-"button implementation- -->
+        <button onclick="display_value+='-';
+        document.querySelector('#display').value=display_value">-</button>
+        <!-- "/"button implementation- -->
+        <button onclick="display_value+='/';
+        document.querySelector('#display').value=display_value">/</button>
+        <!-- "*"button implementation- -->
+        <button onclick="display_value+='*';
+        document.querySelector('#display').value=display_value">*</button>
+      </div>
+      <div class="button_cont" onclick="">
+        <!-- "Clear" -button implementation- -->
+        <button onclick="display_value='';
+        document.querySelector('#display').value=display_value"><span class="material-symbols-outlined">
+delete
+</span></button>
+
+        <!-- "= important"button implementation- -->
+        <button onclick="display_value=eval(display_value);
+        document.querySelector('#display').
+        value=display_value">=</button>
+        <button id='Matrix'  onclick="display_value+='Implementation is going on enjoy other services';
+        document.querySelector('#display').value=display_value "><a href="#" >Matrix</a></button>
+        
+        
+      </div>
+        
+      </div>
+   </div>
+
+   <footer>
+      
+   </footer>
+   <script src="script.js">
+    
+   </script>
+  
+</body>
+</html>
